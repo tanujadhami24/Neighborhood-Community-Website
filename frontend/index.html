@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neighborhood Connect</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 🌆 HEADER -->
+  <header>
+    <div class="logo">🏘️ Neighborhood Connect</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Events</a>
+      <a href="#">Community</a>
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <!-- 🌄 HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Your Neighborhood</h1>
+      <p>Stay informed, join local events, and connect with your community.</p>
+      <button id="post-btn">Share Something</button>
+    </div>
+  </section>
+
+  <!-- 📰 FEED -->
+  <main>
+    <section id="feed">
+      <h2>Community Feed</h2>
+      <div class="posts-container" id="posts-container">
+        <!-- Dynamic posts appear here -->
+      </div>
+    </section>
+  </main>
+
+  <!-- 📝 CREATE POST MODAL -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="close-modal">&times;</span>
+      <h2>Create a Post</h2>
+      <form id="post-form">
+        <input type="text" id="post-title" placeholder="Post title..." required />
+        <textarea id="post-content" placeholder="What's happening in your neighborhood?" required></textarea>
+        <input type="text" id="post-author" placeholder="Your name..." required />
+        <button type="submit">Post</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- 📞 FOOTER -->
+  <footer>
+    <p>© 2025 Neighborhood Connect | Built with ❤️ for communities</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

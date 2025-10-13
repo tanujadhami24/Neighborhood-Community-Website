@@ -1,0 +1,23 @@
+{
+  "name": "ncw",
+  "version": "1.0.0",
+  "description": "A neighborhood community platform where users can post news, events, and connect.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanujadhami24/Neighborhood-Community-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanujadhami24/Neighborhood-Community-Website/issues"
+  },
+  "homepage": "https://github.com/tanujadhami24/Neighborhood-Community-Website#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
