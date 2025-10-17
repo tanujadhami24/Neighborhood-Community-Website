@@ -30,9 +30,39 @@
   <!-- 📰 FEED -->
   <main>
     <section id="feed">
-      <h2>Community Feed</h2>
+      <div class="feed-header">
+        <h2>Community Feed</h2>
+
+        <!-- 🔍 Search + Filter -->
+        <div class="feed-controls">
+          <input
+            type="text"
+            id="search-bar"
+            placeholder="Search posts..."
+            title="Search posts by title or author"
+          />
+          <select id="filter-category">
+            <option value="all">All</option>
+            <option value="event">Events</option>
+            <option value="announcement">Announcements</option>
+            <option value="discussion">Discussions</option>
+          </select>
+        </div>
+      </div>
+
       <div class="posts-container" id="posts-container">
         <!-- Dynamic posts appear here -->
+        <!-- Example post template -->
+        <!--
+        <div class="post">
+          <h3>Community Cleanup Drive</h3>
+          <p>Join us this weekend to clean our local park!</p>
+          <div class="post-meta">
+            <span class="author">by Sarah</span>
+            <span class="timestamp">Posted on 2025-10-17</span>
+          </div>
+        </div>
+        -->
       </div>
     </section>
   </main>
@@ -46,6 +76,14 @@
         <input type="text" id="post-title" placeholder="Post title..." required />
         <textarea id="post-content" placeholder="What's happening in your neighborhood?" required></textarea>
         <input type="text" id="post-author" placeholder="Your name..." required />
+
+        <select id="post-category" required>
+          <option value="">Select Category</option>
+          <option value="event">Event</option>
+          <option value="announcement">Announcement</option>
+          <option value="discussion">Discussion</option>
+        </select>
+
         <button type="submit">Post</button>
       </form>
     </div>
@@ -53,7 +91,7 @@
 
   <!-- 📞 FOOTER -->
   <footer>
-    <p>© 2025 Neighborhood Connect | Built with ❤️ for communities</p>
+    <p>© 2025 Neighborhood Connect | Built by CupCake for communities</p>
   </footer>
 
   <script src="script.js"></script>

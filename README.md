@@ -66,3 +66,26 @@ Database	MongoDB (or MySQL if you prefer relational)
 Authentication	JWT or Firebase Auth
 Hosting	Frontend: Vercel / Netlify, Backend: Render / Railway
 Optional APIs	Google Maps API, Cloudinary (for image uploads)
+
+
+Making of this Project---
+
+ Step 1:
+ Project Setup
+    frontend + Backend
+
+✅ What You Have Now
+
+A working backend server (Node + Express)
+A frontend homepage (HTML, CSS, JS)
+Clean structure ready for development
+
+Step 2:
+ Building the post creation and display feature
+ We’ll start with a frontend-only implementation — you’ll be able to:
+✅ Open a post creation form
+✅ Write a title + message
+✅ See it instantly appear on the feed
+✅ Keep styling consistent and modern
+
+Later, we’ll connect it to your backend + database (MongoDB or MySQL)
